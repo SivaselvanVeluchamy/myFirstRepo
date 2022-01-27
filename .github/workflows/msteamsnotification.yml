@@ -3,7 +3,7 @@ name: MS Teams Notification
 on: [issues]
 
 jobs:
-  build:
+  MSTeamsNotification:
     runs-on: ubuntu-latest
     permissions:
       issues: write
