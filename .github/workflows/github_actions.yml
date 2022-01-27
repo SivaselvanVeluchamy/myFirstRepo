@@ -5,7 +5,7 @@ on:
   push:
     branches: 
       - main
-      - develop
+      
 
 jobs:
   test:
@@ -21,4 +21,4 @@ jobs:
     - name: Install
       run: npm install
     - name: Test
-      run: npm Test
+      run: npm test
